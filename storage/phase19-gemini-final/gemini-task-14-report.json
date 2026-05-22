@@ -1,0 +1,108 @@
+{
+  "settings": {
+    "aiProvider": "GEMINI",
+    "geminiApiKeyExists": true,
+    "geminiModel": "gemini-2.5-flash",
+    "requestTimeoutSeconds": 300
+  },
+  "template": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase16-templates\\관찰일지_realistic.docx",
+  "tabId": 14,
+  "taskId": 14,
+  "documentId": 15,
+  "sourceTitle": "김민준 놀이 관찰 기록",
+  "sourceContext": "관찰: 김민준은 블록으로 다리를 만들며 친구에게 파란 블록을 건네 달라고 말했다. 분석: 또래와 역할을 나누어 구성 놀이를 이어 가는 모습이 관찰되었다. 지원계획: 다음 활동에서 긴 블록과 연결 블록을 충분히 제공한다. 특이사항: 놀이 중 블록이 무너졌을 때 잠시 속상해했으나 다시 시도했다.",
+  "analysis": {
+    "blockCount": 8,
+    "labelCount": 8,
+    "mappingCount": 8,
+    "mappingKeys": [
+      null,
+      null,
+      null,
+      null,
+      "observation",
+      "analysis",
+      "supportPlan",
+      "notes"
+    ]
+  },
+  "geminiGenerationSeconds": 3.59,
+  "structuredKeys": [
+    "observation",
+    "analysis",
+    "supportPlan",
+    "notes"
+  ],
+  "structuredContent": {
+    "observation": "김민준은 블록으로 다리를 만들며 친구에게 파란 블록을 건네 달라고 말했다.",
+    "analysis": "또래와 역할을 나누어 구성 놀이를 이어 가는 모습이 관찰되었다.",
+    "supportPlan": "다음 활동에서 긴 블록과 연결 블록을 충분히 제공한다.",
+    "notes": "놀이 중 블록이 무너졌을 때 잠시 속상해했으나 다시 시도했다."
+  },
+  "missingMarkersCount": 0,
+  "possibleInventions": [],
+  "placementPreview": {
+    "count": 4,
+    "statuses": [
+      "READY"
+    ]
+  },
+  "writePlan": {
+    "count": 4,
+    "statuses": [
+      "READY"
+    ],
+    "operationTypes": [
+      "WRITE_TO_ADJACENT_CELL"
+    ]
+  },
+  "download": {
+    "status": 200,
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "size": 37326,
+    "path": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase19-gemini-final\\gemini-task-14.docx",
+    "exists": true
+  },
+  "reconstructionSummary": {
+    "taskId": 14,
+    "documentId": 15,
+    "generatedFilePath": "storage\\generated\\20260522101724-6669b472-2ad7-4ecb-b983-a3a3a212b440-김민준_놀이_관찰_기록.docx",
+    "totalOperations": 4,
+    "writtenCount": 4,
+    "skippedCount": 0,
+    "available": true,
+    "results": [
+      {
+        "semanticFieldKey": "observation",
+        "displayName": "관찰",
+        "sourceLabel": "관찰",
+        "status": "WRITTEN",
+        "message": "DOCX 양식에 삽입했습니다."
+      },
+      {
+        "semanticFieldKey": "analysis",
+        "displayName": "분석",
+        "sourceLabel": "분석",
+        "status": "WRITTEN",
+        "message": "DOCX 양식에 삽입했습니다."
+      },
+      {
+        "semanticFieldKey": "supportPlan",
+        "displayName": "지원 계획",
+        "sourceLabel": "지원계획",
+        "status": "WRITTEN",
+        "message": "DOCX 양식에 삽입했습니다."
+      },
+      {
+        "semanticFieldKey": "notes",
+        "displayName": "특이사항",
+        "sourceLabel": "특이사항",
+        "status": "WRITTEN",
+        "message": "DOCX 양식에 삽입했습니다."
+      }
+    ]
+  },
+  "latestDocumentFilePath": "storage\\generated\\20260522101724-6669b472-2ad7-4ecb-b983-a3a3a212b440-김민준_놀이_관찰_기록.docx",
+  "docxTextContainsExpectedTerms": [],
+  "totalWorkflowSeconds": 4.44
+}

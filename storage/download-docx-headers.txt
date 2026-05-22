@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Disposition: attachment; filename="=?UTF-8?Q?Phase=5F15=5Feducation=5Factivity=5Fdraft.docx?="; filename*=UTF-8''Phase_15_education_activity_draft.docx
+Accept-Ranges: bytes
+Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Content-Length: 1697
+Date: Thu, 21 May 2026 05:47:39 GMT
+

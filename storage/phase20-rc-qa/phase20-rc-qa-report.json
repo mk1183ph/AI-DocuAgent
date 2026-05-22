@@ -1,0 +1,633 @@
+{
+  "totalSeconds": 468.05,
+  "originalSettings": {
+    "aiProvider": "GEMINI",
+    "geminiApiKeyExists": true,
+    "geminiModel": "gemini-2.5-flash",
+    "ollamaModel": "qwen2.5:7b",
+    "requestTimeoutSeconds": 300
+  },
+  "restoredSettings": {
+    "aiProvider": "GEMINI",
+    "geminiApiKeyExists": true,
+    "geminiModel": "gemini-2.5-flash",
+    "ollamaModel": "qwen2.5:7b",
+    "requestTimeoutSeconds": 300
+  },
+  "matrixResults": [
+    {
+      "provider": "GEMINI",
+      "templateKind": "education",
+      "templateFile": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase16-templates\\교육계획안_realistic.docx",
+      "activeProvider": "GEMINI",
+      "status": "PASS",
+      "tabId": 15,
+      "taskId": 17,
+      "documentId": 18,
+      "analysisBlockCount": 10,
+      "analysisLabelCount": 10,
+      "mappingCount": 5,
+      "mappingKeys": [
+        "activityGoal",
+        "materials",
+        "activityContent",
+        "childReaction",
+        "notes"
+      ],
+      "generationSeconds": 4.79,
+      "jsonValid": true,
+      "structuredKeys": [
+        "activityGoal",
+        "materials",
+        "activityContent",
+        "childReaction",
+        "notes"
+      ],
+      "inventedFlags": [],
+      "placementCount": 5,
+      "placementStatuses": [
+        "READY"
+      ],
+      "writePlanCount": 5,
+      "writePlanStatuses": [
+        "READY"
+      ],
+      "download": {
+        "status": 200,
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 37447,
+        "path": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase20-rc-qa\\gemini-education-task-17.docx",
+        "exists": true
+      },
+      "docxRequiredPartsPresent": true,
+      "sourceTokenHitCount": 44,
+      "sourceTokenHitsSample": [
+        "12명과",
+        "2026-05-22",
+        "2명에게",
+        "가위",
+        "개나리와",
+        "개별",
+        "계절",
+        "관찰하며",
+        "교사가",
+        "교실에서",
+        "꽃잎",
+        "내용"
+      ],
+      "reconstructionSummary": {
+        "taskId": 17,
+        "documentId": 18,
+        "generatedFilePath": "..\\storage\\generated\\20260522103201-9e93af6a-9a3e-4dc7-b79d-525c61e99093-봄꽃_관찰_및_색종이_꽃_만들기_교육계획안.docx",
+        "totalOperations": 5,
+        "writtenCount": 5,
+        "skippedCount": 0,
+        "available": true,
+        "results": [
+          {
+            "semanticFieldKey": "activityGoal",
+            "displayName": "활동 목표",
+            "sourceLabel": "활동 목표",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "materials",
+            "displayName": "준비물",
+            "sourceLabel": "준비물",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "activityContent",
+            "displayName": "활동 내용",
+            "sourceLabel": "활동 내용",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "childReaction",
+            "displayName": "유아 반응",
+            "sourceLabel": "유아 반응",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "notes",
+            "displayName": "특이사항",
+            "sourceLabel": "특이사항",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          }
+        ]
+      },
+      "caseSeconds": 6.62
+    },
+    {
+      "provider": "GEMINI",
+      "templateKind": "observation",
+      "templateFile": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase16-templates\\관찰일지_realistic.docx",
+      "activeProvider": "GEMINI",
+      "status": "PASS",
+      "tabId": 16,
+      "taskId": 18,
+      "documentId": 19,
+      "analysisBlockCount": 8,
+      "analysisLabelCount": 8,
+      "mappingCount": 4,
+      "mappingKeys": [
+        "observation",
+        "analysis",
+        "supportPlan",
+        "notes"
+      ],
+      "generationSeconds": 2.47,
+      "jsonValid": true,
+      "structuredKeys": [
+        "observation",
+        "analysis",
+        "supportPlan",
+        "notes"
+      ],
+      "inventedFlags": [],
+      "placementCount": 4,
+      "placementStatuses": [
+        "READY"
+      ],
+      "writePlanCount": 4,
+      "writePlanStatuses": [
+        "READY"
+      ],
+      "download": {
+        "status": 200,
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 37326,
+        "path": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase20-rc-qa\\gemini-observation-task-18.docx",
+        "exists": true
+      },
+      "docxRequiredPartsPresent": true,
+      "sourceTokenHitCount": 36,
+      "sourceTokenHitsSample": [
+        "가는",
+        "건네",
+        "관찰",
+        "관찰되었다",
+        "구성",
+        "김민준은",
+        "나누어",
+        "놀이",
+        "놀이를",
+        "다리를",
+        "다시",
+        "다음"
+      ],
+      "reconstructionSummary": {
+        "taskId": 18,
+        "documentId": 19,
+        "generatedFilePath": "..\\storage\\generated\\20260522103204-60b88c14-62bc-4bd1-a227-b67803a2d0e9-김민준_놀이_관찰_기록.docx",
+        "totalOperations": 4,
+        "writtenCount": 4,
+        "skippedCount": 0,
+        "available": true,
+        "results": [
+          {
+            "semanticFieldKey": "observation",
+            "displayName": "관찰",
+            "sourceLabel": "관찰",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "analysis",
+            "displayName": "분석",
+            "sourceLabel": "분석",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "supportPlan",
+            "displayName": "지원 계획",
+            "sourceLabel": "지원계획",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "notes",
+            "displayName": "특이사항",
+            "sourceLabel": "특이사항",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          }
+        ]
+      },
+      "caseSeconds": 2.9
+    },
+    {
+      "provider": "GEMINI",
+      "templateKind": "counseling",
+      "templateFile": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase16-templates\\상담일지_realistic.docx",
+      "activeProvider": "GEMINI",
+      "status": "PASS",
+      "tabId": 17,
+      "taskId": 19,
+      "documentId": 20,
+      "analysisBlockCount": 8,
+      "analysisLabelCount": 8,
+      "mappingCount": 4,
+      "mappingKeys": [
+        "consultationContent",
+        "parentOpinion",
+        "teacherOpinion",
+        "followUpPlan"
+      ],
+      "generationSeconds": 2.71,
+      "jsonValid": true,
+      "structuredKeys": [
+        "consultationContent",
+        "parentOpinion",
+        "teacherOpinion",
+        "followUpPlan"
+      ],
+      "inventedFlags": [],
+      "placementCount": 4,
+      "placementStatuses": [
+        "READY"
+      ],
+      "writePlanCount": 4,
+      "writePlanStatuses": [
+        "READY"
+      ],
+      "download": {
+        "status": 200,
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 37295,
+        "path": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase20-rc-qa\\gemini-counseling-task-19.docx",
+        "exists": true
+      },
+      "docxRequiredPartsPresent": true,
+      "sourceTokenHitCount": 40,
+      "sourceTokenHitsSample": [
+        "10분",
+        "가정에서는",
+        "계획",
+        "공유한다",
+        "교사",
+        "교실에서는",
+        "내용",
+        "놀이한다",
+        "담임교사가",
+        "등원",
+        "또래와",
+        "루틴을"
+      ],
+      "reconstructionSummary": {
+        "taskId": 19,
+        "documentId": 20,
+        "generatedFilePath": "..\\storage\\generated\\20260522103207-7887a793-e052-4d79-a517-a7a93afaec49-5월_보호자_상담일지.docx",
+        "totalOperations": 4,
+        "writtenCount": 4,
+        "skippedCount": 0,
+        "available": true,
+        "results": [
+          {
+            "semanticFieldKey": "consultationContent",
+            "displayName": "상담 내용",
+            "sourceLabel": "상담 내용",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "parentOpinion",
+            "displayName": "보호자 의견",
+            "sourceLabel": "보호자 의견",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "teacherOpinion",
+            "displayName": "교사 의견",
+            "sourceLabel": "교사 의견",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "followUpPlan",
+            "displayName": "후속 계획",
+            "sourceLabel": "추후 계획",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          }
+        ]
+      },
+      "caseSeconds": 3.23
+    },
+    {
+      "provider": "OLLAMA",
+      "templateKind": "education",
+      "templateFile": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase16-templates\\교육계획안_realistic.docx",
+      "activeProvider": "OLLAMA",
+      "status": "PASS",
+      "tabId": 18,
+      "taskId": 20,
+      "documentId": 21,
+      "analysisBlockCount": 10,
+      "analysisLabelCount": 10,
+      "mappingCount": 5,
+      "mappingKeys": [
+        "activityGoal",
+        "materials",
+        "activityContent",
+        "childReaction",
+        "notes"
+      ],
+      "generationSeconds": 188.22,
+      "jsonValid": true,
+      "structuredKeys": [
+        "activityGoal",
+        "materials",
+        "activityContent",
+        "childReaction",
+        "notes"
+      ],
+      "inventedFlags": [],
+      "placementCount": 5,
+      "placementStatuses": [
+        "READY"
+      ],
+      "writePlanCount": 5,
+      "writePlanStatuses": [
+        "READY"
+      ],
+      "download": {
+        "status": 200,
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 37449,
+        "path": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase20-rc-qa\\ollama-education-task-20.docx",
+        "exists": true
+      },
+      "docxRequiredPartsPresent": true,
+      "sourceTokenHitCount": 44,
+      "sourceTokenHitsSample": [
+        "12명과",
+        "2026-05-22",
+        "2명에게",
+        "가위",
+        "개나리와",
+        "개별",
+        "계절",
+        "관찰하며",
+        "교사가",
+        "교실에서",
+        "꽃잎",
+        "내용"
+      ],
+      "reconstructionSummary": {
+        "taskId": 20,
+        "documentId": 21,
+        "generatedFilePath": "..\\storage\\generated\\20260522103516-1b874ba3-7a5f-4f98-8f8a-1672bdbe0fa5-봄꽃_관찰_및_색종이_꽃_만들기_교육계획안.docx",
+        "totalOperations": 5,
+        "writtenCount": 5,
+        "skippedCount": 0,
+        "available": true,
+        "results": [
+          {
+            "semanticFieldKey": "activityGoal",
+            "displayName": "활동 목표",
+            "sourceLabel": "활동 목표",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "materials",
+            "displayName": "준비물",
+            "sourceLabel": "준비물",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "activityContent",
+            "displayName": "활동 내용",
+            "sourceLabel": "활동 내용",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "childReaction",
+            "displayName": "유아 반응",
+            "sourceLabel": "유아 반응",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "notes",
+            "displayName": "특이사항",
+            "sourceLabel": "특이사항",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          }
+        ]
+      },
+      "caseSeconds": 188.72
+    },
+    {
+      "provider": "OLLAMA",
+      "templateKind": "observation",
+      "templateFile": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase16-templates\\관찰일지_realistic.docx",
+      "activeProvider": "OLLAMA",
+      "status": "PASS",
+      "tabId": 19,
+      "taskId": 21,
+      "documentId": 22,
+      "analysisBlockCount": 8,
+      "analysisLabelCount": 8,
+      "mappingCount": 4,
+      "mappingKeys": [
+        "observation",
+        "analysis",
+        "supportPlan",
+        "notes"
+      ],
+      "generationSeconds": 117.34,
+      "jsonValid": true,
+      "structuredKeys": [
+        "observation",
+        "analysis",
+        "supportPlan",
+        "notes"
+      ],
+      "inventedFlags": [],
+      "placementCount": 4,
+      "placementStatuses": [
+        "READY"
+      ],
+      "writePlanCount": 4,
+      "writePlanStatuses": [
+        "READY"
+      ],
+      "download": {
+        "status": 200,
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 37326,
+        "path": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase20-rc-qa\\ollama-observation-task-21.docx",
+        "exists": true
+      },
+      "docxRequiredPartsPresent": true,
+      "sourceTokenHitCount": 36,
+      "sourceTokenHitsSample": [
+        "가는",
+        "건네",
+        "관찰",
+        "관찰되었다",
+        "구성",
+        "김민준은",
+        "나누어",
+        "놀이",
+        "놀이를",
+        "다리를",
+        "다시",
+        "다음"
+      ],
+      "reconstructionSummary": {
+        "taskId": 21,
+        "documentId": 22,
+        "generatedFilePath": "..\\storage\\generated\\20260522103714-e9a0d635-dd71-4420-b3f7-900311ec1983-김민준_놀이_관찰_기록.docx",
+        "totalOperations": 4,
+        "writtenCount": 4,
+        "skippedCount": 0,
+        "available": true,
+        "results": [
+          {
+            "semanticFieldKey": "observation",
+            "displayName": "관찰",
+            "sourceLabel": "관찰",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "analysis",
+            "displayName": "분석",
+            "sourceLabel": "분석",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "supportPlan",
+            "displayName": "지원 계획",
+            "sourceLabel": "지원계획",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "notes",
+            "displayName": "특이사항",
+            "sourceLabel": "특이사항",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          }
+        ]
+      },
+      "caseSeconds": 117.76
+    },
+    {
+      "provider": "OLLAMA",
+      "templateKind": "counseling",
+      "templateFile": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase16-templates\\상담일지_realistic.docx",
+      "activeProvider": "OLLAMA",
+      "status": "PASS",
+      "tabId": 20,
+      "taskId": 22,
+      "documentId": 23,
+      "analysisBlockCount": 8,
+      "analysisLabelCount": 8,
+      "mappingCount": 4,
+      "mappingKeys": [
+        "consultationContent",
+        "parentOpinion",
+        "teacherOpinion",
+        "followUpPlan"
+      ],
+      "generationSeconds": 147.97,
+      "jsonValid": true,
+      "structuredKeys": [
+        "consultationContent",
+        "parentOpinion",
+        "teacherOpinion",
+        "followUpPlan"
+      ],
+      "inventedFlags": [],
+      "placementCount": 4,
+      "placementStatuses": [
+        "READY"
+      ],
+      "writePlanCount": 4,
+      "writePlanStatuses": [
+        "READY"
+      ],
+      "download": {
+        "status": 200,
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 37315,
+        "path": "C:\\CurserWorkSpace\\docuagent-local\\storage\\phase20-rc-qa\\ollama-counseling-task-22.docx",
+        "exists": true
+      },
+      "docxRequiredPartsPresent": true,
+      "sourceTokenHitCount": 40,
+      "sourceTokenHitsSample": [
+        "10분",
+        "가정에서는",
+        "계획",
+        "공유한다",
+        "교사",
+        "교실에서는",
+        "내용",
+        "놀이한다",
+        "담임교사가",
+        "등원",
+        "또래와",
+        "루틴을"
+      ],
+      "reconstructionSummary": {
+        "taskId": 22,
+        "documentId": 23,
+        "generatedFilePath": "..\\storage\\generated\\20260522103942-cdd41fdf-9725-43e4-85da-e8cad84d70af-5월_보호자_상담일지.docx",
+        "totalOperations": 4,
+        "writtenCount": 4,
+        "skippedCount": 0,
+        "available": true,
+        "results": [
+          {
+            "semanticFieldKey": "consultationContent",
+            "displayName": "상담 내용",
+            "sourceLabel": "상담 내용",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "parentOpinion",
+            "displayName": "보호자 의견",
+            "sourceLabel": "보호자 의견",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "teacherOpinion",
+            "displayName": "교사 의견",
+            "sourceLabel": "교사 의견",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          },
+          {
+            "semanticFieldKey": "followUpPlan",
+            "displayName": "후속 계획",
+            "sourceLabel": "추후 계획",
+            "status": "WRITTEN",
+            "message": "DOCX 양식에 삽입했습니다."
+          }
+        ]
+      },
+      "caseSeconds": 148.52
+    }
+  ],
+  "failureCount": 0,
+  "warningCount": 0
+}

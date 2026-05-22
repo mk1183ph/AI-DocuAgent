@@ -1,0 +1,70 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.3.5'
+    id 'io.spring.dependency-management' version '1.1.6'
+}
+
+group = 'com.docuagent'
+version = '0.1.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 17
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.xerial:sqlite-jdbc:3.46.1.3'
+    implementation 'org.hibernate.orm:hibernate-community-dialects'
+    implementation 'org.apache.poi:poi-ooxml:5.3.0'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+def isWindows = org.gradle.internal.os.OperatingSystem.current().isWindows()
+
+tasks.register('frontendBuild', Exec) {
+    group = 'build'
+    description = 'Builds the Vue frontend for local Spring Boot packaging.'
+    workingDir = file('../frontend')
+    commandLine = isWindows ? ['cmd', '/c', 'npm run build'] : ['npm', 'run', 'build']
+}
+
+tasks.register('copyFrontendDist', Copy) {
+    group = 'build'
+    description = 'Copies the built frontend into Spring Boot static resources.'
+    dependsOn tasks.named('frontendBuild')
+    dependsOn tasks.named('processResources')
+    from file('../frontend/dist')
+    into layout.buildDirectory.dir('resources/main/static')
+}
+
+tasks.register('packageLocal') {
+    group = 'build'
+    description = 'Builds a local runnable Spring Boot jar with the frontend embedded.'
+    dependsOn tasks.named('copyFrontendDist')
+    dependsOn tasks.named('bootJar')
+}
+
+tasks.named('bootJar') {
+    if (gradle.startParameter.taskNames.any { it == 'packageLocal' || it.endsWith(':packageLocal') }) {
+        dependsOn tasks.named('copyFrontendDist')
+    }
+}
+
+tasks.named('resolveMainClassName') {
+    if (gradle.startParameter.taskNames.any { it == 'packageLocal' || it.endsWith(':packageLocal') }) {
+        dependsOn tasks.named('copyFrontendDist')
+    }
+}

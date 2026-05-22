@@ -1,0 +1,21 @@
+# Backend
+backend/.gradle/
+backend/build/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+frontend/.npm-prefix/
+
+# Local runtime data
+storage/app.db
+storage/*.db-shm
+storage/*.db-wal
+
+# Logs
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
